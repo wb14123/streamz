@@ -10,4 +10,6 @@ addSbtPlugin("com.codecommit" % "sbt-github-actions" % "0.9.3")
 
 addSbtPlugin("ch.epfl.scala" % "sbt-scalafix" % "0.9.21")
 
-addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.6")
+addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "3.9.12")
+
+addSbtPlugin("com.jsuereth" % "sbt-pgp" % "2.0.1")

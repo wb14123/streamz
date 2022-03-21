@@ -26,8 +26,9 @@ val docSettings = Compile / doc / scalacOptions -= "-Xfatal-warnings"
 
 ThisBuild / scalafixScalaBinaryVersion := CrossVersion.binaryScalaVersion(scalaVersion.value)
 
-ThisBuild / bintrayOrganization := Some("streamz")
-ThisBuild / bintrayReleaseOnPublish := false
+ThisBuild / publishTo := sonatypePublishToBundle.value
+ThisBuild / sonatypeCredentialHost := "s01.oss.sonatype.org"
+ThisBuild / sonatypeRepository := "https://s01.oss.sonatype.org/service/local"
 
 // ---------------------------------------------------------------------------
 //  Code formatter settings
