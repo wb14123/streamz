@@ -7,3 +7,4 @@ target/
 project/metals.sbt
 project/project/
 .vscode/settings.json
+.bsp/
