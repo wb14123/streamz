@@ -1,6 +1,15 @@
 Streamz
 =======
 
+Fork Information
+------------------
+This is a fork from Streamz repo. Since the Maven publish of original repo is broken, this repo add changes to publish the builds to Maven Central.
+
+If you want to use these build, no need to add resolvers into `build.sbt`. And use `me.binwang.streamz` instead of `com.github.krasserm`.
+
+Use with caution: There is no guarantee the builds will be updated and maintained.
+
+
 [![Gitter](https://badges.gitter.im/krasserm/streamz.svg)](https://gitter.im/krasserm/streamz?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Build Status](https://travis-ci.org/krasserm/streamz.svg?branch=master)](https://travis-ci.org/krasserm/streamz)
 
